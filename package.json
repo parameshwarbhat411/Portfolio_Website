@@ -1,0 +1,52 @@
+{
+  "name": "3d-portfolio-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@progress/kendo-licensing": "^1.3.5",
+    "@progress/kendo-react-common": "^8.2.0",
+    "@progress/kendo-svg-icons": "^3.0.0",
+    "@tabler/icons-react": "^3.14.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "link": "^2.1.1",
+    "next": "^14.2.7",
+    "react": "^18.3.1",
+    "react-bootstrap-icons": "^1.11.4",
+    "react-chrono": "^2.6.1",
+    "react-dom": "^18.3.1",
+    "react-horizontal-timeline": "^1.5.3",
+    "react-icons": "^5.3.0",
+    "react-parallax-tilt": "^1.7.229",
+    "tailwind-merge": "^2.3.0",
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@react-three/drei": "^9.108.1",
+    "@react-three/fiber": "^8.16.8",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "framer-motion": "^11.2.12",
+    "maath": "^0.10.7",
+    "postcss": "^8.4.39",
+    "react-router-dom": "^6.24.0",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1"
+  }
+}
