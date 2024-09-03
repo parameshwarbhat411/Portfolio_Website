@@ -27,17 +27,34 @@ const Navbar = () => {
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((Link) => (
-            <li
-              key={Link.id}
-              className={`${
-                active === Link.title ? "text-white" : "text-secondary"
-              } hover:text-white hover:text-[18px] hover:font-medium cursor-pointer`}
-              onClick={() => setActive(Link.title)}
-            >
-              <a href={`#${Link.id}`}>{Link.title}</a>
-            </li>
-          ))}
+          {navLinks.map((link) =>
+            link.title === "Resume" ? (
+              <li
+                key={link.id}
+                className={`${
+                  active === link.title ? "text-white" : "text-secondary"
+                } hover:text-white hover:text-[18px] hover:font-medium cursor-pointer`}
+              >
+                <a
+                  href="https://drive.google.com/file/d/1Xbd043UNT5UlnxGXtwLNo2edAKZGZ91x/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {link.title}
+                </a>
+              </li>
+            ) : (
+              <li
+                key={link.id}
+                className={`${
+                  active === link.title ? "text-white" : "text-secondary"
+                } hover:text-white hover:text-[18px] hover:font-medium cursor-pointer`}
+                onClick={() => setActive(link.title)}
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            )
+          )}
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -47,24 +64,43 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
           <div
-            className={`${!toggle ? "hidden" : "flex"} 
-            p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            className={`${
+              !toggle ? "hidden" : "flex"
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
-              {navLinks.map((Link) => (
-                <li
-                  key={Link.id}
-                  className={`${
-                    active === Link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(Link.title);
-                  }}
-                >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
-                </li>
-              ))}
+              {navLinks.map((link) =>
+                link.title === "Resume" ? (
+                  <li
+                    key={link.id}
+                    className={`${
+                      active === link.title ? "text-white" : "text-secondary"
+                    } font-poppins font-medium cursor-pointer text-[16px]`}
+                  >
+                    <a
+                      href="https://drive.google.com/file/d/1Xbd043UNT5UlnxGXtwLNo2edAKZGZ91x/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setToggle(!toggle)}
+                    >
+                      {link.title}
+                    </a>
+                  </li>
+                ) : (
+                  <li
+                    key={link.id}
+                    className={`${
+                      active === link.title ? "text-white" : "text-secondary"
+                    } font-poppins font-medium cursor-pointer text-[16px]`}
+                    onClick={() => {
+                      setToggle(!toggle);
+                      setActive(link.title);
+                    }}
+                  >
+                    <a href={`#${link.id}`}>{link.title}</a>
+                  </li>
+                )
+              )}
             </ul>
           </div>
         </div>
