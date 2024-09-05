@@ -24,7 +24,7 @@ const Qualification = () => {
           <InfiniteMovingCards
             items={education}
             direction="right"
-            speed="slow"
+            speed="normal"
           />
         </div>
       </div>

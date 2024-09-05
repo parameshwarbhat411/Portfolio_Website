@@ -26,10 +26,10 @@ const BlogCard = ({ index, title, description, link }) => (
 const BlogSection = () => {
   const blogs = [
     {
-      title: "CI/CD for Modern Data Engineering",
+      title: "Docker-In-Docker: The Good And the Bad",
       description:
-        "A guide on setting up a CI/CD pipeline tailored for modern data engineering...",
-      link: "https://medium.com/towardsdev/ci-cd-for-modern-data-engineering-e2e7d2d0a694",
+        "Docker-in-Docker (DinD) is simply the practice of running Docker itself inside a Docker container...",
+      link: "https://medium.com/@parameshwarbhat411/docker-in-docker-the-good-and-the-bad-48cfe4e0da6e",
     },
     {
       title: "Introduction to ACID Transactions in Databases — 1",

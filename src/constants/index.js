@@ -160,15 +160,15 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer Intern",
-      company_name: "HealthEdge",
-      icon: healthedge,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - June 2021",
+      title: "Graduate Instructional Assistant",
+      company_name: "The George Washington University",
+      icon: gwu,
+      iconBg: "#205487",
+      date: "August 2024 - Present",
       points: [
-        "Facilitated data migration from Oracle to Hadoop HDFS, resulting in 50% reduction in query processing time, improvingsystem performance for 200+ users. Conducted extensive data validation to ensure accuracy, reliability of migrated data.",
-        "Engineered and optimized ETL pipelines using Apache Spark, Hive, and Apache Kafka, enhancing real-time dataavailability by 40% and ensuring data integrity. Developed automated monitoring scripts to maintain data pipeline efficiency.",
-        "Implemented process improvements to streamline data delivery, increasing scalability and reducing data processing latencyby 30%. Designed and executed comprehensive testing protocols to verify enhancements and minimize downtime.",
+        "Graded assignments and provided detailed feedback for Data Mining and Data Warehousing courses, helping students improve their understanding of complex topics",
+        "Conducted review sessions and offered one-on-one support to students, assisting them with technical tools like SQL and Python, as well as concepts like classification, clustering, ETL, and OLAP",
+        "Collaborated with faculty to ensure smooth course delivery and assisted students in applying theoretical concepts to practical projects",
       ],
     },
     {
@@ -181,6 +181,18 @@ import {
         "Developed a microservice-based notification system using Spring Boot and REST APIs, improving notification deliveryefficiency by 35%. Integrated system with third-party services to enhance functionality and user experience",
         "Enhanced CI/CD processes with Jenkins and SonarQube, reducing deployment times by 20%, increasing code reliability,resulting in a 25% decrease in system downtime. Implemented automated build and test scripts to streamline workflows.",
         "Authored 100+ integration and unit tests, achieving 80% code coverage and significantly enhancing code reliability androbustness, conducted regular code reviews to maintain high coding standards and improve team collaboration.",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "HealthEdge",
+      icon: healthedge,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - June 2021",
+      points: [
+        "Facilitated data migration from Oracle to Hadoop HDFS, resulting in 50% reduction in query processing time, improvingsystem performance for 200+ users. Conducted extensive data validation to ensure accuracy, reliability of migrated data.",
+        "Engineered and optimized ETL pipelines using Apache Spark, Hive, and Apache Kafka, enhancing real-time dataavailability by 40% and ensuring data integrity. Developed automated monitoring scripts to maintain data pipeline efficiency.",
+        "Implemented process improvements to streamline data delivery, increasing scalability and reducing data processing latencyby 30%. Designed and executed comprehensive testing protocols to verify enhancements and minimize downtime.",
       ],
     },
     // {
