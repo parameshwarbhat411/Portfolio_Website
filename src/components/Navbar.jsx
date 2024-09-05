@@ -36,7 +36,7 @@ const Navbar = () => {
                 } hover:text-white hover:text-[18px] hover:font-medium cursor-pointer`}
               >
                 <a
-                  href="https://drive.google.com/file/d/1Xbd043UNT5UlnxGXtwLNo2edAKZGZ91x/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1JBgt40K5UWxqNP9saguh2Alk9zw3eJUY/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -78,7 +78,7 @@ const Navbar = () => {
                     } font-poppins font-medium cursor-pointer text-[16px]`}
                   >
                     <a
-                      href="https://drive.google.com/file/d/1Xbd043UNT5UlnxGXtwLNo2edAKZGZ91x/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1JBgt40K5UWxqNP9saguh2Alk9zw3eJUY/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() => setToggle(!toggle)}
