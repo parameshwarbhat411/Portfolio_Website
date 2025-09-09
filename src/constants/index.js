@@ -160,11 +160,23 @@ import {
   
   const experiences = [
     {
+      title: "Data Engineer",
+      company_name: "The George Washington University",
+      icon: jobit,
+      iconBg: "#205487",
+      date: "Feb 2025 - Present",
+      points: [
+        "Designed and deployed near real-time ingestion pipelines with NiFi and AWS S3 to capture CDC feeds, enabling product managers, analysts, and compliance teams to monitor key risk indicators with reduced latency",
+        "Built and maintained AWS Glue pipelines transforming 30M+ daily records into dimensional data models, powering self-service dashboards in Power BI for fraud detection and operational insights",
+        "Developed AI-powered CLI tools to automate monitoring and validation of production pipelines, reducing manual engineering effort and improving incident response times across critical data workflows",
+      ],
+    }
+    {
       title: "Graduate Instructional Assistant",
       company_name: "The George Washington University",
       icon: gwu,
       iconBg: "#205487",
-      date: "August 2024 - Present",
+      date: "August 2024 - December 2025",
       points: [
         "Graded assignments and provided detailed feedback for Data Mining and Data Warehousing courses, helping students improve their understanding of complex topics",
         "Conducted review sessions and offered one-on-one support to students, assisting them with technical tools like SQL and Python, as well as concepts like classification, clustering, ETL, and OLAP",
@@ -172,27 +184,27 @@ import {
       ],
     },
     {
-      title: "Software Engineer",
-      company_name: "HealthEdge",
-      icon: healthedge,
+      title: "Data Engineer",
+      company_name: "Aplus Datalytics",
+      icon: jobit,
       iconBg: "#E6DEDD",
-      date: "June 2021 - July 2023",
+      date: "Dec 2020 - July 2023",
       points: [
-        "Developed a microservice-based notification system using Spring Boot and REST APIs, improving notification deliveryefficiency by 35%. Integrated system with third-party services to enhance functionality and user experience",
-        "Enhanced CI/CD processes with Jenkins and SonarQube, reducing deployment times by 20%, increasing code reliability,resulting in a 25% decrease in system downtime. Implemented automated build and test scripts to streamline workflows.",
-        "Authored 100+ integration and unit tests, achieving 80% code coverage and significantly enhancing code reliability androbustness, conducted regular code reviews to maintain high coding standards and improve team collaboration.",
+        "Built and scaled an enterprise-wide data lake on AWS S3 that unified siloed financial systems into a centralized platform, enabling analytics across finance, operations, and product reporting teams",
+        "Designed Redshift schemas with incremental loads, fact/dimension models, and materialized views to support BI dashboards and ad-hoc queries; piloted Snowflake to evaluate semi-structured data processing (JSON/Parquet)",
+        "Established the company’s first governance framework with Apache Atlas, mapping 5,000+ lineage links to strengthen data trust, enforce compliance policies, and improve audit readiness",
       ],
     },
     {
-      title: "Software Engineer Intern",
-      company_name: "HealthEdge",
-      icon: healthedge,
+      title: "Data Engineer",
+      company_name: "Hellinex Cloud",
+      icon: jobit,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - June 2021",
+      date: "Aug 2019 - Nov 2020",
       points: [
-        "Facilitated data migration from Oracle to Hadoop HDFS, resulting in 50% reduction in query processing time, improvingsystem performance for 200+ users. Conducted extensive data validation to ensure accuracy, reliability of migrated data.",
-        "Engineered and optimized ETL pipelines using Apache Spark, Hive, and Apache Kafka, enhancing real-time dataavailability by 40% and ensuring data integrity. Developed automated monitoring scripts to maintain data pipeline efficiency.",
-        "Implemented process improvements to streamline data delivery, increasing scalability and reducing data processing latencyby 30%. Designed and executed comprehensive testing protocols to verify enhancements and minimize downtime.",
+        "Engineered ETL pipelines with Python, SQL, and NiFi to integrate high-volume transactional and partner data, improving reporting timeliness and accuracy for business and product stakeholders",
+        "Optimized PostgreSQL schemas and indexes to accelerate BI dashboards, improving response times for analytical workloads across internal applications",
+        "Contributed to Kafka-based ingestion workflows and supported a Snowflake POC for semi-structured log analysis, evaluating scalability for future data product use cases",
       ],
     },
     // {
