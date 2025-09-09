@@ -36,7 +36,7 @@ const Navbar = () => {
                 } hover:text-white hover:text-[18px] hover:font-medium cursor-pointer`}
               >
                 <a
-                  href="https://drive.google.com/file/d/1JBgt40K5UWxqNP9saguh2Alk9zw3eJUY/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1PapZJ9CUtTdQwIw0Br1vMVjvHAKfKK_4/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
