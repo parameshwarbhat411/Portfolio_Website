@@ -161,7 +161,7 @@ import {
   const experiences = [
     {
       title: "Data Engineer",
-      company_name: "The George Washington University",
+      company_name: "Northern Trust",
       icon: jobit,
       iconBg: "#205487",
       date: "Feb 2025 - Present",
@@ -170,7 +170,7 @@ import {
         "Built and maintained AWS Glue pipelines transforming 30M+ daily records into dimensional data models, powering self-service dashboards in Power BI for fraud detection and operational insights",
         "Developed AI-powered CLI tools to automate monitoring and validation of production pipelines, reducing manual engineering effort and improving incident response times across critical data workflows",
       ],
-    }
+    },
     {
       title: "Graduate Instructional Assistant",
       company_name: "The George Washington University",
